@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rimefeller Compat Patch</name>
+	<author>KahirDragoon</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>kahirdragoon.rimefellercompatpatch</packageId>
+	<description>
+Automatically patches all by chemfuel refuellable Things to be compatible with Rimefeller
+
+Patches added for
+- Bioreactor
+- VFE Mechanoids
+- VFE Ancients
+
+Safe to add midgame. Removal will result in harmless one time erros.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Dubwise.Rimefeller</packageId>
+			<displayName>Rimefeller</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1321849735</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>brrainz.harmony</li>
+		<li>Dubwise.Rimefeller</li>
+		<li>oskarpotocki.vanillafactionsexpanded.core</li>
+		<li>oskarpotocki.vfe.mechanoid</li>
+		<li>oskarpotocki.vfe.ancients</li>
+		<li>solaris.bioreactor</li>
+	</loadAfter>
+</ModMetaData>
