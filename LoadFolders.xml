@@ -8,4 +8,12 @@
     <li IfModActive="vanillaexpanded.vfea">VFE_Ancients/1.4</li>
     <li IfModActive="solaris.bioreactor">Bioreactor/1.4</li>
   </v1.4>
+  <v1.5>
+    <li>/</li>
+    <li>1.5</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.core">VanillaExpanded/1.5</li>
+    <li IfModActive="oskarpotocki.vfe.mechanoid">VFE_Mechanoids/1.5</li>
+    <li IfModActive="vanillaexpanded.vfea">VFE_Ancients/1.5</li>
+    <li IfModActive="solaris.bioreactor">Bioreactor/1.5</li>
+  </v1.5>
 </loadFolders>
