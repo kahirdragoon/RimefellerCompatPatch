@@ -30,7 +30,7 @@ namespace RCP_Core
         {
             var thingsDefs = DefDatabase<ThingDef>
                 .AllDefsListForReading
-                .Where(def => (def.HasComp(typeof(CompRefuelable)) || def.HasComp(typeof(CompSpawner))) && !def.HasComp(typeof(CompPipe)));
+                .Where(def => (def.HasComp(typeof(CompRefuelable)) || def.HasComp(typeof(CompSpawner))) && !def.HasComp(typeof(CompPipe) ));
 
             int countRefuel = 0;
             int countSpawn = 0;
@@ -58,8 +58,8 @@ namespace RCP_Core
                 }
             }
 
-            Log.Message($"[{ModName}]: Finished adding Rimefeller Refuel Pipe Compatibility to {countRefuel} items");
-            Log.Message($"[{ModName}]: Finished adding Rimefeller Spawner Pipe Compatibility to {countSpawn} items");
+            //Log.Message($"[{ModName}]: Finished adding Rimefeller Refuel Pipe Compatibility to {countRefuel} items");
+            //Log.Message($"[{ModName}]: Finished adding Rimefeller Spawner Pipe Compatibility to {countSpawn} items");
         }
     }
 }

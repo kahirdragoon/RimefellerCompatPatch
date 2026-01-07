@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationInsert">
+      <xpath>Defs/ThingDef/comps/li[@Class="PipeSystem.CompProperties_ResourceStorage" and pipeNet="VCHE_ChemfuelNet"]</xpath>
+      <value>
+        <li Class="RCP_VanillaExpanded.CompProperties_FillStorageFromRimefellerPipeNet">
+        </li>
+      </value>
+  </Operation>
+</Patch>

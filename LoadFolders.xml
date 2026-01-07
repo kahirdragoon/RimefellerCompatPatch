@@ -15,5 +15,16 @@
     <li IfModActive="oskarpotocki.vfe.mechanoid">VFE_Mechanoids/1.5</li>
     <li IfModActive="vanillaexpanded.vfea">VFE_Ancients/1.5</li>
     <li IfModActive="solaris.bioreactor">Bioreactor/1.5</li>
+    <li IfModActive="vanillaracesexpanded.android">VRE_Androids/1.5</li>
+    <li IfModActive="vanillaexpanded.vchemfuele">VanillaChemfuelExpanded/1.5</li>
   </v1.5>
+  <v1.6>
+    <li>/</li>
+    <li>1.6</li>
+    <li IfModActive="mlie.bioreactor">Bioreactor/1.6</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.core">VanillaExpanded/1.6</li>
+    <li IfModActive="vanillaexpanded.vchemfuele">VanillaChemfuelExpanded/1.6</li>
+    <li IfModActive="vanillaracesexpanded.android">VRE_Androids/1.6</li>
+    <li IfModActive="vanillaexpanded.gravship">GravshipExpanded1/1.6</li>
+  </v1.6>
 </loadFolders>

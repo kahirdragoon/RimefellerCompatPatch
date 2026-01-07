@@ -20,10 +20,9 @@ namespace RCP_Core
             manager.RefuelComps.Add(this);
         }
 
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode mode)
         {
-            base.PostDeSpawn(map);
-
+            base.PostDeSpawn(map, mode);
             manager.RefuelComps.Remove(this);
         }
 

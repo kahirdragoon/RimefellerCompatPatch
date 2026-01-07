@@ -8,8 +8,8 @@ using Verse;
 
 namespace RCP_VanillaExpanded
 {
-    public class CompProperties_RefillFromRimefellerPipeNet : CompProperties_Pipe
-    {
-        public CompProperties_RefillFromRimefellerPipeNet() => compClass = typeof(CompRefillFromRimefellerPipeNet);
-    }
+    //public class CompProperties_RefillFromRimefellerPipeNet : CompProperties_Pipe
+    //{
+    //    public CompProperties_RefillFromRimefellerPipeNet() => compClass = typeof(CompRefillProcessorFromRimefellerPipeNet);
+    //}
 }

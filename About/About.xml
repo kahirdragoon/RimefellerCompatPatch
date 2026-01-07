@@ -5,15 +5,19 @@
 	<supportedVersions>
 		<li>1.4</li>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
-	<packageId>kahirdragoon.rimefellercompatpatch</packageId>
+	<packageId>kahirdragoon.rimefellercompatpatch11111</packageId>
 	<description>
-Automatically patches all by chemfuel refuellable Things to be compatible with Rimefeller
+Automatically patches all by chemfuel refuellable Things to be compatible with Rimefeller. Also connects Neutroamine Refinery to the Neutroamine PipeNetwork from Androids.
 
 Patches added for
 - Bioreactor
-- VFE Mechanoids
-- VFE Ancients
+- VFE Chemfuel
+- VFE Androids
+- Vanilla Expanded Gravship Chapter 1
+- VFE Mechanoids (1.4, 1.5 only)
+- VFE Ancients (1.4, 1.5 only)
 
 Safe to add midgame. Removal will result in harmless one time erros.
 	</description>
@@ -31,6 +35,8 @@ Safe to add midgame. Removal will result in harmless one time erros.
 		<li>oskarpotocki.vanillafactionsexpanded.core</li>
 		<li>oskarpotocki.vfe.mechanoid</li>
 		<li>oskarpotocki.vfe.ancients</li>
+		<li>vanillaracesexpanded.android</li>
 		<li>solaris.bioreactor</li>
+		<li>mlie.bioreactor</li>
 	</loadAfter>
 </ModMetaData>

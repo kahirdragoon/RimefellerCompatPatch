@@ -15,7 +15,7 @@ namespace RCP_Core
         public static bool Prefix(Building __instance)
         {
             var pipe = __instance.GetComp<CompPipe>();
-            if (pipe == null)
+            if (pipe is null)
                 return true;
 
             if(pipe.pipeNet.PushFuel(35) != 0)

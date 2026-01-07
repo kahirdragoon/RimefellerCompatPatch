@@ -7,21 +7,21 @@ using Verse;
 
 namespace RCP_VanillaExpanded
 {
-    public class RefillableRimefellerPipeSystemCompatManager : MapComponent
-    {
-        public List<CompRefillFromRimefellerPipeNet> RefillComps { get; } = new List<CompRefillFromRimefellerPipeNet>();
+    //public class RefillableRimefellerPipeSystemCompatManager : MapComponent
+    //{
+    //    public List<CompRefillProcessorFromRimefellerPipeNet> RefillComps { get; } = new List<CompRefillProcessorFromRimefellerPipeNet>();
 
-        public RefillableRimefellerPipeSystemCompatManager(Map map) : base(map)
-        {
+    //    public RefillableRimefellerPipeSystemCompatManager(Map map) : base(map)
+    //    {
 
-        }
+    //    }
 
-        public override void MapComponentTick()
-        {
-            base.MapComponentTick();
+    //    public override void MapComponentTick()
+    //    {
+    //        base.MapComponentTick();
 
-            foreach (var comp in RefillComps)
-                comp.CompTick2();
-        }
-    }
+    //        foreach (var comp in RefillComps)
+    //            comp.CompTick2();
+    //    }
+    //}
 }
