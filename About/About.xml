@@ -38,5 +38,6 @@ Safe to add midgame. Removal will result in harmless one time erros.
 		<li>vanillaracesexpanded.android</li>
 		<li>solaris.bioreactor</li>
 		<li>mlie.bioreactor</li>
+		<li>adaptive.ideology.storage</li>
 	</loadAfter>
 </ModMetaData>
