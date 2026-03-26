@@ -29,7 +29,7 @@
       <Mass>120</Mass>
     </statBases>
     <costList>
-      <Steel>200</Steel>
+      <Steel>75</Steel>
     </costList>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <building>

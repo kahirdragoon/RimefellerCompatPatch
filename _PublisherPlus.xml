@@ -21,11 +21,5 @@
     <exclude>Source\RCP_VFE_Mechanoids\.vs</exclude>
     <exclude>Source\RCP_VFE_Mechanoids\bin</exclude>
     <exclude>Source\RCP_VFE_Mechanoids\obj</exclude>
-    <exclude>VanillaExpanded\1.6\Assemblies\0Harmony.dll</exclude>
-    <exclude>VanillaExpanded\1.6\Assemblies\0Harmony.pdb</exclude>
-    <exclude>VanillaExpanded\1.6\Assemblies\0PrepatcherAPI.dll</exclude>
-    <exclude>VanillaExpanded\1.6\Assemblies\KCSG.dll</exclude>
-    <exclude>VanillaExpanded\1.6\Assemblies\PipeSystem.dll</exclude>
-    <exclude>VanillaExpanded\1.6\Assemblies\VEF.dll</exclude>
   </Excluded>
 </Configuration>

@@ -17,7 +17,7 @@
     <DebugSymbols>false</DebugSymbols>
     <DebugType>none</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\VanillaExpanded\1.6\Assemblies\</OutputPath>
+    <OutputPath>..\..\Mods\VanillaExpanded\1.6\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -56,9 +56,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Harmony\Rimefeller_CompSpawner.cs" />
+    <Compile Include="Initialize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RimefellerRefillable\CompFillAdvancedResourceProcessor.cs" />
+    <Compile Include="RimefellerRefillable\CompProperties_FillAdvancedResourceProcessor.cs" />
     <Compile Include="RimefellerRefillable\CompProperties_FillStorageFromRimefellerPipeNet.cs" />
-    <Compile Include="RimefellerRefillable\CompProperties_RefillFromRimefellerPipeNet.cs" />
     <Compile Include="RimefellerRefillable\CompFillStorageFromRimefellerPipeNet.cs" />
     <Compile Include="RimefellerRefillable\CompRefillProcessorFromRimefellerPipeNet.cs" />
     <Compile Include="RimefellerRefillable\RefillableRimefellerPipeSystemCompatManager.cs" />

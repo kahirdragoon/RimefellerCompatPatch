@@ -30,7 +30,9 @@ namespace RCP_Core
         {
             var thingsDefs = DefDatabase<ThingDef>
                 .AllDefsListForReading
-                .Where(def => (def.HasComp(typeof(CompRefuelable)) || def.HasComp(typeof(CompSpawner))) && !def.HasComp(typeof(CompPipe) ));
+                .Where(def => (def.HasComp(typeof(CompRefuelable)) || def.HasComp(typeof(CompSpawner))) 
+                              && !def.HasComp(typeof(CompPipe))
+                              && !def.HasComp<CompRefuelFromRimefellerPipeNet>());
 
             int countRefuel = 0;
             int countSpawn = 0;
