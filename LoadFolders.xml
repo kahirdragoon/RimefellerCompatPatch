@@ -28,5 +28,6 @@
     <li IfModActive="vanillaracesexpanded.android">Mods/VRE_Androids/1.6</li>
     <li IfModActive="vanillaexpanded.gravship">Mods/GravshipExpanded1/1.6</li>
     <li IfModActive="adaptive.ideology.storage">Mods/AdaptiveIdeologyStorage/1.6</li>
+    <li IfModActive="Poncho.AutomaticHydroponics">Mods/AutomaticHydroponics/1.6</li>
   </v1.6>
 </loadFolders>

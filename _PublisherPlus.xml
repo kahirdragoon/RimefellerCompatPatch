@@ -2,24 +2,7 @@
 <Configuration>
   <Excluded>
     <exclude>.git</exclude>
-    <exclude>1.6\Assemblies\0Harmony.dll</exclude>
-    <exclude>1.6\Assemblies\0Harmony.pdb</exclude>
-    <exclude>1.6\Assemblies\0MultiplayerAPI.dll</exclude>
-    <exclude>1.6\Assemblies\Rimefeller.dll</exclude>
-    <exclude>1.6\Assemblies\Rimefeller.pdb</exclude>
     <exclude>Images</exclude>
-    <exclude>Source\.vs</exclude>
-    <exclude>Source\RCP_Core\.vs</exclude>
-    <exclude>Source\RCP_Core\bin</exclude>
-    <exclude>Source\RCP_Core\obj</exclude>
-    <exclude>Source\RCP_VanillaExpanded\.vs</exclude>
-    <exclude>Source\RCP_VanillaExpanded\bin</exclude>
-    <exclude>Source\RCP_VanillaExpanded\obj</exclude>
-    <exclude>Source\RCP_VFE_Ancients\.vs</exclude>
-    <exclude>Source\RCP_VFE_Ancients\bin</exclude>
-    <exclude>Source\RCP_VFE_Ancients\obj</exclude>
-    <exclude>Source\RCP_VFE_Mechanoids\.vs</exclude>
-    <exclude>Source\RCP_VFE_Mechanoids\bin</exclude>
-    <exclude>Source\RCP_VFE_Mechanoids\obj</exclude>
+    <exclude>Source</exclude>
   </Excluded>
 </Configuration>

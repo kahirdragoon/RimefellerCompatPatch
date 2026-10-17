@@ -63,8 +63,6 @@
     <Compile Include="RimefellerRefillable\CompProperties_FillAdvancedResourceProcessor.cs" />
     <Compile Include="RimefellerRefillable\CompProperties_FillStorageFromRimefellerPipeNet.cs" />
     <Compile Include="RimefellerRefillable\CompFillStorageFromRimefellerPipeNet.cs" />
-    <Compile Include="RimefellerRefillable\CompRefillProcessorFromRimefellerPipeNet.cs" />
-    <Compile Include="RimefellerRefillable\RefillableRimefellerPipeSystemCompatManager.cs" />
     <Compile Include="RimefellerRefinerToPipeNet\CompRimefellerRefinerToPipeNet.cs" />
     <Compile Include="RimefellerRefinerToPipeNet\CompProperties_RimefellerRefinerToPipeNet.cs" />
   </ItemGroup>

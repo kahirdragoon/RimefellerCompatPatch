@@ -19,6 +19,7 @@ Patches added for
 - Vanilla Furniture Expanded - Factory
 - VFE Mechanoids (1.4, 1.5 only)
 - VFE Ancients (1.4, 1.5 only)
+- Automatic Hydroponics
 
 Safe to add midgame. Removal will result in harmless one time erros.
 	</description>
@@ -41,5 +42,6 @@ Safe to add midgame. Removal will result in harmless one time erros.
 		<li>solaris.bioreactor</li>
 		<li>mlie.bioreactor</li>
 		<li>adaptive.ideology.storage</li>
+		<li>Poncho.AutomaticHydroponics</li>
 	</loadAfter>
 </ModMetaData>
