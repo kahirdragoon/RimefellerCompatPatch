@@ -30,4 +30,17 @@
     <li IfModActive="adaptive.ideology.storage">Mods/AdaptiveIdeologyStorage/1.6</li>
     <li IfModActive="Poncho.AutomaticHydroponics">Mods/AutomaticHydroponics/1.6</li>
   </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li>1.7</li>
+    <li IfModActive="mlie.bioreactor">Mods/Bioreactor/1.7</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.core">Mods/VanillaExpanded/1.7</li>
+    <li IfModActive="vanillaexpanded.vchemfuele">Mods/VanillaChemfuelExpanded/1.7</li>
+    <li IfModActive="vanillaexpanded.vfefactory">Mods/VanillaFurnitureExpandedFactory/1.7</li>
+    <li IfModActive="vanillaracesexpanded.android">Mods/VRE_Androids/1.7</li>
+    <li IfModActive="vanillaexpanded.gravship">Mods/GravshipExpanded1/1.7</li>
+    <li IfModActive="adaptive.ideology.storage">Mods/AdaptiveIdeologyStorage/1.7</li>
+    <li IfModActive="Poncho.AutomaticHydroponics">Mods/AutomaticHydroponics/1.7</li>
+    <li IfModActive="vanillaquestsexpanded.ancients">Mods/VQE_Ancients/1.7</li>
+  </v1.7>
 </loadFolders>

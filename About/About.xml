@@ -6,6 +6,7 @@
 		<li>1.4</li>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<packageId>kahirdragoon.rimefellercompatpatch11111</packageId>
 	<description>
@@ -19,6 +20,7 @@ Patches added for
 - Vanilla Furniture Expanded - Factory
 - VFE Mechanoids (1.4, 1.5 only)
 - VFE Ancients (1.4, 1.5 only)
+- VQE Ancients (1.7 only)
 - Automatic Hydroponics
 
 Safe to add midgame. Removal will result in harmless one time erros.
@@ -37,6 +39,7 @@ Safe to add midgame. Removal will result in harmless one time erros.
 		<li>oskarpotocki.vanillafactionsexpanded.core</li>
 		<li>oskarpotocki.vfe.mechanoid</li>
 		<li>oskarpotocki.vfe.ancients</li>
+		<li>vanillaquestsexpanded.ancients</li>
 		<li>vanillaexpanded.vfefactory</li>
 		<li>vanillaracesexpanded.android</li>
 		<li>solaris.bioreactor</li>

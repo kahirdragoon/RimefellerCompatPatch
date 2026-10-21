@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[(defName="VQEA_AncientPipelineJunction_On" or defName="VQEA_AncientPipelineJunction_Off") and not(comps)]</xpath>
+    <value>
+      <comps />
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VQEA_AncientPipelineJunction_On" or defName="VQEA_AncientPipelineJunction_Off"]/comps</xpath>
+    <value>
+      <li Class="Rimefeller.CompProperties_Pipe" />
+    </value>
+  </Operation>
+</Patch>

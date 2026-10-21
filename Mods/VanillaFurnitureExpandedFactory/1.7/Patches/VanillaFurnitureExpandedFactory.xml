@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedAmmunitionPress" or defName="VFEFactory_NeutroamineSynthesizer" or defName="VFEFactory_AutomatedAlloyForge" or defName="VFEFactory_AutomatedMachiningBay"]/comps</xpath>
+    <value>
+      <li Class="RCP_VanillaExpanded.CompProperties_FillAdvancedResourceProcessor" />
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedBiofuelRefinery"]/comps</xpath>
+    <value>
+      <li Class="Rimefeller.CompProperties_Pipe" />
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[@Name="ChemfuelHopperBase"]</xpath>
+    <value>
+      <li Class="PipeSystem.FactoryHopperExtension">
+        <isfactoryHopper>true</isfactoryHopper>
+      </li>
+    </value>
+  </Operation>
+</Patch>
